@@ -2,10 +2,13 @@
 #![deny(clippy::arithmetic_side_effects)]
 #![deny(clippy::indexing_slicing)]
 
+<<<<<<< HEAD
 #[cfg(feature = "metrics")]
 #[macro_use]
 extern crate solana_svm_metrics;
 
+=======
+>>>>>>> bef3d3611 (program-runtime: drop metrics (#7807))
 pub use solana_sbpf;
 pub mod execution_budget;
 pub mod invoke_context;
